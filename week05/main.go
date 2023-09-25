@@ -34,8 +34,8 @@ func main() {
 		}
 		if inputNumber < answer {
 			fmt.Println("Your guess number is lower than answer.") //answer is higher!
-		} else if inputnumber > answer {
-			fmt.println("Your guess number is higher than answer.") // answer is low
+		} else if inputNumber > answer {
+			fmt.Println("Your guess number is higher than answer.") // answer is low
 		}
 
 	}
