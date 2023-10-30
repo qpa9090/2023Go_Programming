@@ -10,4 +10,5 @@ func main() {
 	greeting.Hello()
 	greeting.Hi()
 	fmt.Println(mymath.MyAbs(-10))
+	fmt.Println(mymath.MyPower(2, 10))
 }
