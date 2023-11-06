@@ -20,7 +20,7 @@ func main() {
 	// fmt.print(test[5]) // comfile error, invalid argument index 5 out of bounds
 
 	i := 0
-	for i < 6 { // while
+	for i < len(test) { // while //만약 크기를 넘어가면 panic: runtime error: index out of range [5] with length 5
 		fmt.Println(test[i])
 		i++
 	}
