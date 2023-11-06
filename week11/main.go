@@ -24,4 +24,12 @@ func main() {
 		fmt.Println(test[i])
 		i++
 	}
+
+	for idx, prime := range primes {
+		fmt.Println(idx, prime)
+	}
+
+	for _, prime := range primes { //언더스코어 사용하여 값만 나오게 함
+		fmt.Println(prime)
+	}
 }
